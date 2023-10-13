@@ -1,0 +1,56 @@
+{
+    "applications": "*",
+    "changelogDate": "20231004121820",
+    "clientRootFolder": "MiniDefinition",
+    "databaseType": "postgres",
+    "dto": "mapstruct",
+    "embedded": false,
+    "entityTableName": "city",
+    "fields": [
+        {
+            "fieldName": "cityCode",
+            "fieldType": "String",
+            "fieldValidateRules": ["minlength", "maxlength"],
+            "fieldValidateRulesMaxlength": "64",
+            "fieldValidateRulesMinlength": "0"
+        },
+        {
+            "fieldName": "cityName",
+            "fieldType": "String",
+            "fieldValidateRules": ["minlength", "maxlength"],
+            "fieldValidateRulesMaxlength": "256",
+            "fieldValidateRulesMinlength": "0"
+        },
+        {
+            "fieldName": "isPassive",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "datePassive",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "approvalStatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "processID",
+            "fieldType": "UUID"
+        }
+    ],
+    "fluentMethods": true,
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "MiniDefinition",
+    "name": "City",
+    "pagination": "no",
+    "readOnly": false,
+    "relationships": [
+        {
+            "otherEntityName": "country",
+            "otherEntityRelationshipName": "city",
+            "relationshipName": "country",
+            "relationshipType": "many-to-one"
+        }
+    ],
+    "service": "serviceImpl"
+}

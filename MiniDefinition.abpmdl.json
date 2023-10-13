@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "MiniDefinition.Domain.Shared": {
+      "path": "src/MiniDefinition.Domain.Shared/MiniDefinition.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.Domain": {
+      "path": "src/MiniDefinition.Domain/MiniDefinition.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.Application.Contracts": {
+      "path": "src/MiniDefinition.Application.Contracts/MiniDefinition.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.Application": {
+      "path": "src/MiniDefinition.Application/MiniDefinition.Application.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.EntityFrameworkCore": {
+      "path": "src/MiniDefinition.EntityFrameworkCore/MiniDefinition.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.MongoDB": {
+      "path": "src/MiniDefinition.MongoDB/MiniDefinition.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.HttpApi": {
+      "path": "src/MiniDefinition.HttpApi/MiniDefinition.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.HttpApi.Client": {
+      "path": "src/MiniDefinition.HttpApi.Client/MiniDefinition.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "MiniDefinition.TestBase": {
+      "path": "test/MiniDefinition.TestBase/MiniDefinition.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "MiniDefinition.EntityFrameworkCore.Tests": {
+      "path": "test/MiniDefinition.EntityFrameworkCore.Tests/MiniDefinition.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "MiniDefinition.MongoDB.Tests": {
+      "path": "test/MiniDefinition.MongoDB.Tests/MiniDefinition.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "MiniDefinition.Domain.Tests": {
+      "path": "test/MiniDefinition.Domain.Tests/MiniDefinition.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "MiniDefinition.Application.Tests": {
+      "path": "test/MiniDefinition.Application.Tests/MiniDefinition.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "MiniDefinition.HttpApi.Host": {
+      "path": "host/MiniDefinition.HttpApi.Host/MiniDefinition.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "MiniDefinition.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/MiniDefinition.HttpApi.Client.ConsoleTestApp/MiniDefinition.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "MiniDefinition.AuthServer": {
+      "path": "host/MiniDefinition.AuthServer/MiniDefinition.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "MiniDefinition.Host.Shared": {
+      "path": "host/MiniDefinition.Host.Shared/MiniDefinition.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

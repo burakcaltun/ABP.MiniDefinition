@@ -1,0 +1,60 @@
+{
+    "applications": "*",
+    "changelogDate": "20231009140536",
+    "clientRootFolder": "MiniDefinition",
+    "databaseType": "postgres",
+    "dto": "mapstruct",
+    "embedded": false,
+    "entityTableName": "currency",
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String",
+            "fieldValidateRules": ["minlength", "maxlength"],
+            "fieldValidateRulesMaxlength": "64",
+            "fieldValidateRulesMinlength": "0"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": ["minlength", "maxlength"],
+            "fieldValidateRulesMaxlength": "256",
+            "fieldValidateRulesMinlength": "0"
+        },
+        {
+            "fieldName": "number",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "isPassive",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "datePassive",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "approvalStatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "processID",
+            "fieldType": "UUID"
+        }
+    ],
+    "fluentMethods": true,
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "MiniDefinition",
+    "name": "Currency",
+    "pagination": "no",
+    "readOnly": false,
+    "relationships": [
+        {
+            "otherEntityName": "exchangeRateEntry",
+            "otherEntityRelationshipName": "exchangeRateEntry",
+            "relationshipName": "exchangeRateEntry",
+            "relationshipType": "one-to-many"
+        }
+    ],
+    "service": "serviceImpl"
+}

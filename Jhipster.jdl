@@ -1,0 +1,30 @@
+entity ExchangeRateEntry{
+   Date Date
+   CustomsCode Integer 
+   ForexBuying BigDecimal
+   ForexSelling BigDecimal
+   BanknoteBuying BigDecimal
+   BanknoteSelling BigDecimal
+   FreeBuyExchangeRate BigDecimal
+   FreeSellExchangeRate BigDecimal
+}
+entity Currency{
+   Code String minlength(0) maxlength(64)
+   Name String minlength(0) maxlength(256)
+   Number Integer
+   IsPassive Boolean
+   DatePassive Date
+   ApprovalStatus Boolean
+   ProcessID UUID
+}
+
+
+relationship OneToMany {
+   Currency to ExchangeRateEntry{ExchangeRateEntry}
+}
+
+
+paginate all with pagination
+filter *
+dto * with mapstruct
+service all with serviceImpl

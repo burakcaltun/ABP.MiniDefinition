@@ -1,0 +1,58 @@
+{
+    "applications": "*",
+    "changelogDate": "20231009140535",
+    "clientRootFolder": "MiniDefinition",
+    "databaseType": "postgres",
+    "dto": "mapstruct",
+    "embedded": false,
+    "entityTableName": "exchange_rate_entry",
+    "fields": [
+        {
+            "fieldName": "date",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "customsCode",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "forexBuying",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "forexSelling",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "banknoteBuying",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "banknoteSelling",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "freeBuyExchangeRate",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "freeSellExchangeRate",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "fluentMethods": true,
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "MiniDefinition",
+    "name": "ExchangeRateEntry",
+    "pagination": "no",
+    "readOnly": false,
+    "relationships": [
+        {
+            "otherEntityName": "currency",
+            "otherEntityRelationshipName": "exchangeRateEntry",
+            "relationshipName": "exchangeRateEntry",
+            "relationshipType": "many-to-one"
+        }
+    ],
+    "service": "serviceImpl"
+}

@@ -1,0 +1,18 @@
+{
+  "culture": "en",
+    "texts": {
+        "MyAccount": "My account",
+        "SamplePageMessage": "A sample page for the MiniDefinition module",
+        "Enum:YesOrNoEnum.0": "No",
+        "Enum:YesOrNoEnum.1": "Yes",
+        "Enum:ApprovalStatusEnum.0": "Approved",
+        "Enum:ApprovalStatusEnum.1": "Unapproved",
+        "DEF:Message:Default:SelectRecordNoAccess": "Selected record has no accessible!",
+        "DEF:Message:Default:FieldCanNotBeLeftBlank": "Field cannot be left blank",
+        "DEF:Message:Default:AlreadyExist": "This is already exists",
+        "DEF:Message:Default:NotNullException": "This is cannot be null",
+        "STK:Message:Default:InformationDeleteRecordNotShow": "Information Delete Record not Show",
+        "DEF:Message:ExchangeRateEntries:MustEnterAtLeastOneExchangeRate": "You must enter at least one Exchange Rate",
+
+    }
+}
